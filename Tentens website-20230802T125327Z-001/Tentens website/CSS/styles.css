@@ -1,0 +1,17 @@
+
+
+@import url(header.css);
+@import url(about-us.css);
+@import url(Foods.css);
+@import url(menu.css);
+@import url(reviews.css);
+
+body {
+    margin: 0 auto;
+    background-color: rgb(255, 255, 176);
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}

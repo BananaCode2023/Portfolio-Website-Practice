@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>07 exercise Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+  <div class="calculator">
+  <div class="buttons">
+    <h2>Calculator</h2><br/>
+
+  <button 
+  onclick=" updateCalculator(1)";
+  >1</button>
+
+
+  <button
+  onclick="updateCalculator(2)";
+  >2</button>
+
+  <button
+  onclick="updateCalculator(3)";
+  >3</button>
+
+  <button
+  onclick=" updateCalculator('+')";
+  >+</button><br/><br/>
+
+  <button
+  onclick="updateCalculator(4)";
+  >4</button>
+
+  <button
+  onclick="updateCalculator(5)";
+  >5</button>
+
+  <button
+  onclick="updateCalculator(6)";
+  >6</button>
+
+  <button
+  onclick=" updateCalculator('-')";
+  >-</button><br/><br/>
+
+  <button
+  onclick="updateCalculator(7)";
+  >7</button>
+
+  <button
+  onclick="updateCalculator(8)";
+  >8</button>
+
+  <button
+  onclick="updateCalculator(9)";
+  >9</button>
+
+  <button
+  onclick=" updateCalculator('*')";
+  >*</button><br/><br/>
+
+  <button
+  onclick="updateCalculator(0)";
+  >0</button>
+
+  <button
+  onclick=" updateCalculator('.')";
+  >.</button>
+
+  <button
+  onclick="
+  equals()
+  "
+  
+  >=</button>
+
+  <button
+  onclick=" updateCalculator('/')";
+  >/</button><br/><br/>
+
+  <button
+  onclick=" clear()"
+  >Clear</button>
+</div>
+</div>
+
+  
+  
+  <script>
+  let calculation = '';
+  
+  function updateCalculator(value){
+    calculation += value;
+    console.log(calculation);
+  }
+
+  function equals(){
+    calculation = eval(calculation);
+    console.log(calculation);
+    alert(calculation);
+  }
+
+  function clear(){
+    calculation = '' ;
+    console.log('cleared');
+  }
+  
+
+
+
+
+  </script>
+  </body>
+</html>

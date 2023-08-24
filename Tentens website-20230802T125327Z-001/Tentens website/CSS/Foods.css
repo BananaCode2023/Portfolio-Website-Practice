@@ -1,0 +1,103 @@
+
+.foods__title-overlay{
+    margin-top: -5px;
+    padding: 0.1px;
+    background-color:  rgb(252, 175, 31);
+    z-index: -1;
+}
+
+.foods__title h1{
+    width: fit-content;
+    font-weight: 700;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium';
+    text-transform: uppercase;
+    font-style: oblique;
+    color: #000000;
+  
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+
+    
+}
+
+
+.foods__images-samples1 img {
+    margin-left: auto;
+    margin-right: auto;
+    left: 16%;
+    width:22%;
+    position: relative;
+    
+}
+
+.foods__images-samples2 img {
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 16%;
+    width:22%;
+    position: relative;
+    
+}
+
+.foods__images-samples1 {
+    position: relative;
+    inset: 0;
+    width: 100%;
+    background-color:  rgb(252, 175, 31);
+    z-index: -1;
+}
+
+.foods__images-samples2 {
+    position: relative;
+    inset: 0;
+    width: 100%;
+  
+    background-color:  rgb(252, 175, 31);
+    z-index: -1;
+}
+
+
+.foods__images-button {
+    width: fit-content;
+
+  padding: 20px 30px;
+
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+  font-family: arial;
+  color: #fff;
+
+  border: none;
+  outline: none;
+  background-color: rgb(116, 0, 0);
+  border-radius: 64px;
+  cursor: pointer;
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+
+}
+
+.button__overlay {
+    position: relative;
+    inset: 0;
+    width: 100%;
+  height: 110px;
+    background-color:  rgb(252, 175, 31);
+    z-index: 2;
+    
+}
+
+.foods__images-button:hover {
+    background-color: rgb(241, 34, 34);
+    color: black;
+
+}
+ 
+  

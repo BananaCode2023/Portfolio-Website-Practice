@@ -1,0 +1,43 @@
+header{
+  background-color: white;
+  position: fixed;
+  width: 100%;
+  padding: 10px 80px;
+  margin-top: -20px;
+  margin-bottom: 0px;
+  margin-left: -10px;
+  margin-right: -10px;
+  box-shadow: 5px 5px 80px rgba(0,0,0,0.4);
+  z-index: 2;
+}
+.navbar-logo {
+  float: left;
+  padding-top: 20px;
+}
+
+.navbar-logo img{
+  width: 150px;
+}
+
+.navbar-right{
+  margin-right: 160px;
+}
+
+.navbar-right a {
+  font-family: helvetica;
+  font-weight: bold;
+  margin-top: 15px;
+  font-size: 20px;
+  float: right;
+  color: rgb(82, 82, 82);
+  text-align: right;
+  padding: 20px 20px;
+  text-decoration: none;
+}
+
+.navbar-right a:hover {
+  color: rgb(255, 192, 19);
+  text-shadow: 0px 0px 10px rgba(255, 192, 19, 0.3);
+}
+
+

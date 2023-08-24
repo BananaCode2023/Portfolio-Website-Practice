@@ -1,0 +1,48 @@
+.contact-locator{
+  height: 80px;
+  background: rgba(255, 255, 255, 0.7);
+}
+.contact{
+  height: 500px;
+}
+
+.contact_image-container{
+  height: 500px;
+  background:  rgb(50,50,50);
+}
+#contact_image{
+  position: relative;
+  height: 440px;
+  float: right;
+  margin-right: 300px;
+  margin-top: 60px;
+}
+
+.details h1{
+  margin-top: 0px;
+  padding-top: 50px;
+  padding-left: 300px;
+  padding-bottom: -30px;
+  font-family: merriweather Sans;
+  color: white;
+  letter-spacing: 2px;
+  font-size: 60px;
+}
+.details p{
+  padding-top: -20px;
+  padding-left: 300px;
+  font-family: merriweather Sans;
+  font-size: 30px;
+  color: white;
+}
+
+.details img{
+  width: 170px;
+  display: block;
+  padding-left: 300px;
+  padding-bottom: 20px;
+}
+
+.details img:hover{
+  opacity: 0.7;
+}

@@ -1,0 +1,14 @@
+@import url(navbar.css);
+@import url(home.css);
+@import url(about.css);
+@import url(projects.css);
+@import url(contact.css);
+
+body{
+    background-image: url(assets/backgroundimage.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    background-color: #ffffff;
+    margin: 0px;
+}

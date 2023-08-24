@@ -1,0 +1,32 @@
+.calculator {
+  background-color: rgb(147, 147, 147);
+  border-width: 10px;
+  border: 5px #000000 solid;
+  border-radius: 10px;
+  background-position: center;
+  width: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  
+  
+}
+.buttons h2{
+  text-align: center;
+  text-transform: uppercase;
+  color: aliceblue;
+  font-family: sans-serif;
+}
+.buttons button{
+  position: static;
+  display:relative;
+  width: 23%;
+  margin-right:auto;
+  border-radius: 3px;
+}
+
+.buttons button:hover{
+  background-color: rgb(67, 67, 67);
+  color: aliceblue;
+}

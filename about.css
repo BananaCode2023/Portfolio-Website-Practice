@@ -1,0 +1,93 @@
+.about{
+  height: 500px;
+}
+
+#aboutMe{
+  text-align: center;
+  font-family: merriweather Sans;
+  font-size: 40px;
+  margin-top: 30px;
+}
+
+.wrapper{
+  width: 1100px;
+  margin: 5% auto;
+  
+}
+
+.cards{
+  width: 32.5%;
+  background: #ffffff;
+  float: left;
+  margin-top: -30px;
+  box-shadow: 1px 1px 20px rgba(0,0,0,0.5);
+  text-align: center;
+  transition: 0.8s;
+  border-radius: 20px;
+  margin-left: 1px;
+  margin-right: 1px;
+}
+
+.image{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: #ffcf30;
+  margin: 5% auto 0 auto;
+  text-align: center;
+}
+
+.contents{
+  margin-top: 10%;
+}
+
+.cards h1{
+  font-family: merriweather Sans;
+  font-size: 20px;
+  color: rgb(0,0,0);
+  line-height: 3;
+  text-transform: uppercase;
+}
+
+.image img{
+  width: 100px;
+}
+
+.contents h3{
+  font-family: merriweather Sans;
+  font-size: 16px;
+}
+
+.contents p{
+  font-family: merriweather Sans;
+  font-size: 12px;
+}
+
+.cards:hover{
+  background: #ffcf30;
+  color: rgb(16,22,45);
+  box-shadow: 0 0 15px rgba(0,0,0,1);
+  transform: scale(1.1);
+  z-index: -1;
+  border-radius: 25px;
+}
+
+.about_bc-container{
+  background-color: #ffcf30;
+  padding: 70px;
+}
+
+#about-bc{
+  text-align: center;
+  margin-top: 100px;
+  font-family: merriweather Sans;
+  font-size: 40px;
+}
+
+#about-bc-description{
+  text-align: center;
+  font-size: 20px;
+  font-family: merriweather Sans;
+  padding-left: 10%;
+  padding-right: 10%;
+}

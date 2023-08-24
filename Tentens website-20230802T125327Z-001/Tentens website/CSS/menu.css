@@ -1,0 +1,159 @@
+
+.menu__logo1{
+    height: 70%;
+    width: 100%;
+   position: relative;
+   left: 0px;
+  }
+  .menu__logo2{
+    height: 35%;
+    width: 17%;
+   position: absolute;
+   top: -10px;
+   left: 50px;
+   margin-left: auto;
+   margin-top: auto;
+   cursor: pointer;
+  }
+
+
+.menu__logo h1 {
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    size: initial;
+}
+
+.Menu__title-overlay {
+    margin-top: -5px;
+    padding: 0.1px;
+    background-color:  rgb(252, 175, 31);
+    z-index: -1;
+}
+
+  .Menu__title-paragraph h1{
+    width: fit-content;
+    font-weight: 700;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium';
+    text-transform: uppercase;
+    font-style: oblique;
+    color: #000000;
+  
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+.menu__images2 img {
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+    left: 5%;
+    width:20%;
+    position: relative;
+    border-radius: 50%;
+}
+
+.menu__images1 {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.images {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    display: flex;
+    align-items:flex-end;
+    transition: 0.5s ease-in-out;
+}
+
+.images:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(255, 0, 0, 0.3), rgb(236, 143, 36, 0.8));
+    z-index: 2;
+    transition: 0.5s all;
+    opacity: 0;
+    border-radius: 50%;
+}
+
+.images:hover:before {
+    opacity: 1;
+}
+
+.images img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.images .info {
+    position: relative;
+    z-index: 3;
+    color: #fff;
+    opacity: 0;
+    transform: translateY(30px);
+    transition: 0.5s all;
+}
+
+.images:hover .info {
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+.images .info h1{
+    position: absolute;
+    bottom: 50%;
+    left: 30%;
+    z-index: 1;
+    font-size: 40px;
+}
+.images .info h2{
+    position:absolute;
+    bottom: 70%;
+    left: 35%;
+    z-index: 1;
+    font-size: 30px;
+}
+
+.images .info p {
+    font-size: 20px;
+    margin-top: 8px;
+    margin-bottom: 20px;
+    margin-left: 80px;
+}
+
+.images .info .btn {
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    background: rgb(116, 0, 0);
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+    margin-left: 40px;
+}
+
+.menu__images1-overlay{
+    position: relative;
+    inset: 0;
+    width: 100%;
+    padding-bottom:40px;
+    background-color:  rgb(252, 175, 31);
+    z-index: unset;
+}

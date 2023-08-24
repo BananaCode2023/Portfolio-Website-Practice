@@ -1,0 +1,55 @@
+
+.about-us__header {
+    width: fit-content;
+    margin-top: -40px;
+    margin-bottom: -20px;
+    font-weight: 700;
+    font-size: 60px;
+    font-family: 'Franklin Gothic Medium';
+    text-transform: uppercase;
+    font-style: oblique;
+    color: #000000;
+  
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about-us__header h1 {
+    background-color: rgb(255, 255, 255);
+    border: solid 10px;
+    border-color:  rgb(116, 0, 0);
+    border-radius: 5px;
+    padding: 30px;
+}
+
+.about-us__text p{
+
+    display: block;
+    width: fit-content;
+    height: 100px;
+    line-height: 30px;
+    font-size: 20px;
+    text-align: left;
+    margin-block-end: 0px;
+    margin-block-start: 0px;
+    margin-bottom: 0px;
+    margin-inline-end: 0px;
+    margin-inline-start: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    overflow-wrap: break-word;
+    padding-left: 12%;
+    padding-right: 12%;
+}
+
+.about-us__owner {
+    display: block;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
